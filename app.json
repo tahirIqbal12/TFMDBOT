@@ -1,0 +1,21 @@
+{
+  "name": "TFMDBOT",
+  "description": "TF MD WhatsApp bot made by Tahir Iqbal official",
+  "logo": "https://files.catbox.moe/4xjhiz.jpeg",
+  "keywords": ["bot","TFMDBOT","TFMDBOT"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the TFMDBOT session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
